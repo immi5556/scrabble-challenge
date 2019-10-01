@@ -97,6 +97,6 @@ class Scrabble {
 Usage:
 
 ```javascript
-	var scrabble = new Scrabble(15, 15);
-    scrabble.buildBoard();
+var scrabble = new Scrabble(15, 15);
+scrabble.buildBoard();
 ```
