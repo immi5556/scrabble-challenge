@@ -19,6 +19,8 @@ Unit test: http://localhost:8080/scrabble_test.html
 
 unit test: xUnit
 
+![Output Screenshot](img_.PNG)
+
 please use below variable declaration with full data
 ````javascript
 let board = [
