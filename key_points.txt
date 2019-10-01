@@ -1,0 +1,5 @@
+﻿>> docker build -t nginx-html .
+
+>> docker run --rm -it -p 8080:80 nginx-html
+
+>> docker rm $(docker ps -a -f status=exited -q)
