@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+
+    <title></title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+            table td {
+                height: 30px;
+                width: 30px;
+                text-align: center;
+                border: 1px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                border: 1px solid #ff0000;
+            }
+
+        .sit-in-the-corner {
+            font-size: xx-small;
+        }
+
+        .sit-in-the-right {
+            font-size: xx-small;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+
+    </div>
+    <script src="scrabble.js"> </script>
+    <script>
+        var scrabble = new Scrabble(15, 15);
+        scrabble.buildBoard();
+    </script>
+</body>
+</html>

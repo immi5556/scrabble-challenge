@@ -1,0 +1,23 @@
+The challenge is about famous word game Scrabble. We are providing the final state of the game board in file `board.json`, your aim is to write a program that computes the final scores for each player and find who won the round.
+
+- Given data represents the final state of the game (`board.json`)
+- Each entry represents a letter on the board with coordinates and which player placed or re-used the letter to form a word (a letter can be used by multiple words)
+- First element is ```Y``` cordinate, second element is ```X``` coordinate, third element is the letter itself, fourth element is the list of players used the letter 
+- All words on the board considered to be valid
+- The words are at least 2 letters long
+- The board dimensions are 15 x 15
+- There are no letter or word multipliers on the board
+- Second dataset represents the points for each letters in the alphabet. (`letters.json`)
+
+While doing that;
+- Consider coding guidelines documents
+- Programming language does not matter however we want the solution to be in an OOP approach, C#, PHP, Javascript, Typescript, Java, C, Python, Go etc. should work
+- Consider dockerizing your solution so it would be easy to test
+- Consider that there can be edge cases that can not be solved
+
+From our perspective;
+- We haven't implemented a solution to this challenge
+- There might be cases where you can not come up with an absolute solution
+- We want to review how you approach the problem and how you reflect it to the code
+- We expect you to discuss any edge cases that you found out during implementation and analysis
+- Don't spend more than 6-7 hours in total

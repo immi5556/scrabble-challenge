@@ -1,0 +1,9 @@
+[
+  {"value":1 , "letters": ["A", "E", "I", "O", "U", "L", "N", "S", "T", "R"]},
+  {"value":2 , "letters": ["D", "G"]},
+  {"value":3 , "letters": ["B", "C", "M", "P"]},
+  {"value":4 , "letters": ["F", "H", "V", "W", "Y"]},
+  {"value":5 , "letters": ["K"]},
+  {"value":8 , "letters": ["J", "X"]},
+  {"value":10 , "letters": ["Q", "Z"]}
+]
